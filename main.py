@@ -4,4 +4,6 @@ if number < 1:
 elif number == 1:
     print(number, " is neigher prime nor composite")
 else:
-    for di
+    for divisor in range(2, (number//2))
+        if (number % divisor) == 0:
+            print(number, "is a composite Number")
